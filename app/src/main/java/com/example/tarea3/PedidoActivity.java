@@ -35,18 +35,18 @@ public class PedidoActivity extends Activity {
         String cantidadStr = editTextCantidad.getText().toString().trim();
 
         if (nombre.isEmpty() || cantidadStr.isEmpty()) {
-            Toast.makeText(this, "Por favor completa todos los campos.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.por_favor_completa_todos_los_campos), Toast.LENGTH_SHORT).show();
             return;
         }
 
         int cantidad = Integer.parseInt(cantidadStr);
 
         if (cantidad <= 0) {
-            Toast.makeText(this, "La cantidad debe ser mayor que cero.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, getString(R.string.la_cantidad_debe_ser_mayor_que_cero), Toast.LENGTH_SHORT).show();
             return;
         }
 
-        String mensaje = "Pedido confirmado para " + nombre + ", cantidad: " + cantidad;
+        String mensaje = getString(R.string.pedido_confirmado_para) + nombre + ", cantidad: " + cantidad;
         Toast.makeText(this, mensaje, Toast.LENGTH_SHORT).show();
     }
 }

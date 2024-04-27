@@ -6,6 +6,22 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="realizar_un_pedido">Realizar un Pedido</string>
+    <string name="nombre">Nombre</string>
+    <string name="cantidad">Cantidad</string>
+    <string name="confirmar_pedido">Confirmar Pedido</string>
+    <string name="realizar_una_compra">Realizar una Compra</string>
+    <string name="producto_1">Producto 1</string>
+    <string name="producto_2">Producto 2</string>
+    <string name="producto_3">Producto 3</string>
+    <string name="agregado_al_carrito">Agregado al carrito: </string>
+    <string name="por_favor_completa_todos_los_campos">Por favor completa todos los campos.</string>
+    <string name="la_cantidad_debe_ser_mayor_que_cero">La cantidad debe ser mayor que cero.</string>
+    <string name="pedido_confirmado_para">Pedido confirmado para </string>
+    <string name="cancelar_pedido">Cancelar pedido</string>
+    <string name="reenviar_pedido">Reenviar pedido</string>
+    <string name="modificar_pedido">Modificar pedido</string>
+
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -43,4 +59,5 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+
 </resources>

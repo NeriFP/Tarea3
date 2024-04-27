@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.util.Log;
 import android.view.View;
 
 import androidx.navigation.NavController;
@@ -48,7 +49,6 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
@@ -62,10 +62,21 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Log.d("Menu", "Se seleccionó la opción de configuración");
+            return true;
+        } else if (id == R.id.action_cancelar_pedido) {
+            Log.d("Menu", "Se seleccionó la opción de cancelar pedido");
+            return true;
+        } else if (id == R.id.action_reenviar_pedido) {
+            Log.d("Menu", "Se seleccionó la opción de reenviar pedido");
+            return true;
+        } else if (id == R.id.action_modificar_pedido) {
+            Log.d("Menu", "Se seleccionó la opción de modificar pedido");
             return true;
         }
 
         return super.onOptionsItemSelected(item);
+
     }
 
     @Override

@@ -1,10 +1,28 @@
+<!-- res/menu/menu_main.xml -->
+
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.tarea3.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Configuración"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cancelar_pedido"
+        android:orderInCategory="101"
+        android:title="Cancelar pedido"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_reenviar_pedido"
+        android:orderInCategory="102"
+        android:title="Reenviar pedido"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_modificar_pedido"
+        android:orderInCategory="103"
+        android:title="Modificar pedido"
         app:showAsAction="never" />
 </menu>
